@@ -1402,32 +1402,32 @@ select,
 textarea {
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit;
+    line-height: inherit
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    color: #337ab7;
+    text-decoration: none
 }
 
 a:focus,
 a:hover {
     color: #23527c;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
+    outline-offset: -2px
 }
 
 figure {
-    margin: 0;
+    margin: 0
 }
 
 img {
-    vertical-align: middle;
+    vertical-align: middle
 }
 
 .carousel-inner>.item>a>img,
@@ -1437,11 +1437,11 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: auto
 }
 
 .img-rounded {
-    border-radius: 6px;
+    border-radius: 6px
 }
 
 .img-thumbnail {
@@ -1455,18 +1455,18 @@ img {
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
 }
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 50%
 }
 
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #eee
 }
 
 .sr-only {
@@ -1477,7 +1477,7 @@ hr {
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    border: 0;
+    border: 0
 }
 
 .sr-only-focusable:active,
@@ -1487,11 +1487,11 @@ hr {
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto;
+    clip: auto
 }
 
 [role=button] {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .h1,
@@ -1509,7 +1509,7 @@ h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit;
+    color: inherit
 }
 
 .h1 .small,
@@ -1658,9 +1658,7 @@ mark {
 }
 
 .text-center {
-    text-align: center;
-    font-family: "helvetica";
-    color: #333333!important;
+    text-align: center
 }
 
 .text-justify {
@@ -2014,7 +2012,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px;
+    margin-left: -15px
 }
 
 .col-lg-1,
