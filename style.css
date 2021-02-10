@@ -22,7 +22,6 @@ h1 {
     font-weight: 700;
     letter-spacing: 0.05em;
     color: white;
-    padding-top: 2rem;
 }
 .description_title {
     font-size: 25px;
@@ -100,7 +99,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .bloc-md {
