@@ -48,11 +48,6 @@ p {
     font-size: 16px;
     letter-spacing: 0.04em;
 }
-
-.paragraphe_bloc3 {
-    color: white;
-    text-align: center;
-}
 a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
@@ -705,10 +700,6 @@ a[data-lightbox]:hover img {
 .med-width-whitespace {
     max-width: 100%;
     margin: auto auto auto auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
     margin-top: 4rem;
 }
 
@@ -774,7 +765,7 @@ a[data-lightbox]:hover img {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #CD4A08!important;
+    background: #FB5800!important;
     color: #FFFFFF!important;
 }
 
@@ -813,7 +804,7 @@ a[data-lightbox]:hover img {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-entrepreneurs_lyon.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -839,13 +830,13 @@ a[data-lightbox]:hover img {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -864,7 +855,7 @@ a[data-lightbox]:hover img {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
+        padding-left: (safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
@@ -1021,8 +1012,8 @@ a[data-lightbox]:hover img {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
