@@ -10,7 +10,7 @@ body {
 .btn, a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #333333!important;
+    color: white;
 }
 label {
     font-family: "helvetica";
@@ -61,6 +61,7 @@ a, button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    font-weight: 700;
 }
 
 #page-loading-blocs-notifaction {
@@ -75,10 +76,12 @@ a:hover {
 .citation {
     font-size: 17px;
     font-style: italic;
+    color:#CD4A08;
 }
 
 .citation_signature {
     font-size: 13px;
+    color:#CD4A08;
 }
 
 .bloc {
@@ -260,7 +263,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(61, 61, 61);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -461,7 +464,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .mg-lg {
@@ -680,9 +683,6 @@ a[data-lightbox]:hover img {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
-
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -761,7 +761,7 @@ a[data-lightbox]:hover img {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CD4A08;
 }
 
 .tc-white {
@@ -769,12 +769,12 @@ a[data-lightbox]:hover img {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CD4A08;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #CD4A08!important;
     color: #FFFFFF!important;
 }
 
@@ -787,11 +787,11 @@ a[data-lightbox]:hover img {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CD4A08!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #CD4A08!important;
 }
 
 .icon-dark-slate-blue {
@@ -809,6 +809,7 @@ a[data-lightbox]:hover img {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    z-index:0;
 }
 
 .bg-presentation {
