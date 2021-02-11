@@ -57,6 +57,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
     font-weight: 700;
+    color:white;
 }
 
 #page-loading-blocs-notifaction {
