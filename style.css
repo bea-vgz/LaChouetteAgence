@@ -14,7 +14,7 @@ body {
 label {
     font-family: "helvetica";
     font-weight: 600;
-    color: #333333!important;
+    color: #3D3D3D!important;
 }
 h1 {
     font-size: 40px;
@@ -209,7 +209,7 @@ a:hover {
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
-        color: #484848;
+        color: #3D3D3D;
     }
     .nav-invert .site-navigation {
         left: 0;
