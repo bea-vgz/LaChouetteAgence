@@ -338,6 +338,9 @@ a[data-lightbox] {
     text-align: center;
     padding: 1rem;
 }
+.social p {
+    display: none;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
