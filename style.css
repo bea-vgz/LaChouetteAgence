@@ -121,6 +121,9 @@ a:hover {
 .d-bloc h4 a, .d-bloc p a {
     color: rgba(255, 255, 255);
 }
+a .icon-md:hover{
+    color:black;
+}
 .d-bloc .panel, .l-bloc {
     color: rgb(61, 61, 61);
 }
