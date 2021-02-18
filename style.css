@@ -62,7 +62,7 @@ a[data-lightbox]{position:relative;display:block;text-align:center}
 .icons{margin-bottom:14px;margin-top:24px}
 .footer_title_white{color:#fff!important;text-align:center;padding:1.5rem}
 .title_partenaires{color:#fff!important;text-align:center;padding:1rem}
-.social span{display:none}
+.social p{display:none}
 .portfolio-thumb{margin-bottom:24px}
 .portfolio-row{margin-bottom:44px;margin-top:50px}
 .black-background{background-color:rgba(135,115,78,0.8);padding:40px 40px 40px 40px}
