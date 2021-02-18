@@ -1,15 +1,6 @@
 <!doctype html>
 <html lang="fr">
 <head>
-	<script>
-		(fonction (i, s, o, g, r, a, m) {i ['GoogleAnalyticsObject'] = r; i [r] = i [r] || function () {
-		(i [r] .q = i [r] .q || []). push (arguments)}, i [r] .l = 1 * new Date (); a = s.createElement (o),
-		m = s.getElementsByTagName (o) [0]; a.async = 1; a.src = g; m.parentNode.insertBefore (a, m)
-		}) (fenêtre, document, 'script', 'https: //www.google-analytics.com/analytics.js','ga');
-	
-		ga ('créer', 'G-1VYG6B1RJJ', 'auto');
-		ga ('envoyer', 'page vue');
-	</script>
     <meta charset="utf-8">
     <meta name="description" content="La Chouette Agence, Entreprise de Web Design basée à Lyon. Mise en place, accompagnement, conseil et conception site web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -30,167 +21,160 @@
 	<script src="./js/jqBootstrapValidation.js"></script>
 
     <title>Contact - La Chouette Agence</title>
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
 </head>
 <body>
 <!-- Principal conteneur -->
 <div class="page-container">
-    
-<!-- bloc-0 -->
-<header class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Agence de webdesign de Lyon" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</header>
-<!-- bloc-0 END -->
+		
+	<!-- bloc-0 -->
+	<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="container bloc-sm">
+			<nav class="navbar row">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Agence de webdesign de Lyon" height="40" /></a>
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- bloc-0 END -->
 
-<main>
-	<!-- bloc-6 -->
-	<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
-		<div class="container bloc-lg">
+	<main>
+		<!-- bloc-6 -->
+		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="text-center hero-bloc-text tc-white">
+							Parlons webdesign !
+						</h1>
+						<p class="text-center mg-lg tc-white tight-width-whitespace">
+							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- bloc-6 END -->
+
+		<!-- bloc-7 -->
+		<section class="bloc bgc-white l-bloc" id="bloc-7">
+			<div class="container bloc-lg">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="form-group">
+							<label>
+								Nom
+							</label>
+							<input id="name" class="form-control" type="text" placeholder="Prénom Nom" required />
+						</div>
+						<div class="form-group">
+							<label>
+								Adresse email
+							</label>
+							<input id="email" class="form-control" type="email" placeholder="votre email" required />
+						</div>
+						<div class="form-group">
+							<label>
+								Comment nous avez-vous connu ?
+							</label>
+							<input class="form-control" type="email" placeholder="Réseaux sociaux, blog..." required/>
+						</div>
+						<div class="form-group">
+							<label>
+								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							</label><textarea id="message" class="form-control" placeholder="Votre brief" rows="4" cols="50" required></textarea>
+						</div>
+						<div>
+							<button type="submit" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Envoyer</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<h3> La Chouette Agence </h3>
+						<p>
+							2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+							<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
+						</p>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- bloc-7 END -->
+
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
+	</main>
+
+	<!-- Footer - bloc-8 -->
+	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+		<div class="container bloc-sm">
 			<div class="row">
 				<div class="col-sm-12">
-					<h1 class="text-center hero-bloc-text tc-white">
-						Parlons webdesign !
-					</h1>
-					<p class="text-center mg-lg tc-white tight-width-whitespace">
-						Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-						Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-					</p>
+					<h3 class="footer_title_white">
+						Suivez-nous sur les Réseaux Sociaux !
+					</h3>
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3 col-xs-3">
+							<div class="text-center">
+								<a href="https://twitter.com/" target="_blank">
+									<i aria-hidden="true" class="fa fa-twitter icon-md"></i>
+									<p>Twitter</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3">
+							<div class="text-center">
+								<a href="https://www.facebook.com/" target="_blank">
+									<i aria-hidden="true" class="fa fa-facebook icon-md"></i>
+									<p>Facebook</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3">
+							<div class="text-center">
+								<a href="https://dribbble.com/" target="_blank">
+									<i aria-hidden="true" class="fa fa-dribbble icon-md"></i>
+									<p>Dribbble</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-3">
+							<div class="text-center">
+								<a href="https://www.instagram.com/" target="_blank">
+									<i aria-hidden="true" class="fa fa-instagram icon-md"></i>
+									<p>Instagram</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<div class="text-center">
+							<h3 class="title_partenaires"> Nos partenaires</h3>
+							<a href="https://www.lyon.fr/">
+								<p>La Ville de Lyon</p>
+							</a>
+						</div>		
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- bloc-6 END -->
-
-	<!-- bloc-7 -->
-	<section class="bloc bgc-white l-bloc" id="bloc-7">
-		<div class="container bloc-lg">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" type="text" placeholder="Prénom Nom" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" placeholder="votre email" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" placeholder="Réseaux sociaux, blog..." required/>
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" placeholder="Votre brief" rows="4" cols="50" required></textarea>
-					</div>
-					<div>
-						<button type="submit" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Envoyer</button>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<h3> La Chouette Agence </h3>
-					<p>
-						2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-						<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
-					</p>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- bloc-7 END -->
-
-	<!-- ScrollToTop Button -->
-	<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-	<!-- ScrollToTop Button END-->
-</main>
-
-<!-- Footer - bloc-8 -->
-<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<h3 class="footer_title_white">
-					Suivez-nous sur les Réseaux Sociaux !
-				</h3>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3 col-xs-3">
-						<div class="text-center">
-							<a href="https://twitter.com/" target="_blank">
-								<i aria-hidden="true" class="fa fa-twitter icon-md"></i>
-								<p>Twitter</p>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<div class="text-center">
-							<a href="https://www.facebook.com/" target="_blank">
-								<i aria-hidden="true" class="fa fa-facebook icon-md"></i>
-								<p>Facebook</p>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<div class="text-center">
-							<a href="https://dribbble.com/" target="_blank">
-								<i aria-hidden="true" class="fa fa-dribbble icon-md"></i>
-								<p>Dribbble</p>
-							</a>
-						</div>
-					</div>
-					<div class="col-sm-3 col-xs-3">
-						<div class="text-center">
-							<a href="https://www.instagram.com/" target="_blank">
-								<i aria-hidden="true" class="fa fa-instagram icon-md"></i>
-								<p>Instagram</p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12">
-					<div class="text-center">
-						<h3 class="title_partenaires"> Nos partenaires</h3>
-						<a href="https://www.lyon.fr/">
-							<p>La Ville de Lyon</p>
-						</a>
-					</div>		
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-<!-- Footer - bloc-8 END -->
+	</footer>
+	<!-- Footer - bloc-8 END -->
 
 </div>
 <!-- Principal conteneur END -->
-    
 
 </body>
 </html>
