@@ -11,7 +11,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
-<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+<FilesMatch "\.(ico|jpeg|jpg|png|gif|swf|css|gz)$">
 Header set Cache-Control "max-age=2592s000, public"
 </FilesMatch>
 <FilesMatch "\.(js)$">
@@ -42,6 +42,3 @@ ExpiresByType image/x-icon "access plus 1 year"
 ExpiresDefault "access plus 2 days"
 </IfModule>
 # END Expires Headers
-
-Header unset ETag
-FileETag none
