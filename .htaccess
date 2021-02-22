@@ -9,6 +9,9 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 # END GZIP
 
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # BEGIN Expire headers
 <IfModule mod_expires.c>
@@ -34,7 +37,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf)$">
+ <FilesMatch "\\.(ico|pdf|webp|flv|jpg|jpeg|png|gif|svg|js|css|swf)$">
  Header set Cache-Control "max-age=2592000, public"
  </FilesMatch>
  <FilesMatch "\\.(css)$">
@@ -56,18 +59,3 @@ Header unset Cache-Control
 # KILL THEM ETAGS
 Header unset ETag
 FileETag none
-
-# protect wpconfig.php
-<files wp-config.php>
-order allow,deny
-deny from all
-</files>
-
-# protect the htaccess file
-<files .htaccess>
-order allow,deny
-deny from all
-</files>
-
-# protection de la lecture des r�pertoires
-Options -Indexes
