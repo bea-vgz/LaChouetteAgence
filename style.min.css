@@ -75,7 +75,7 @@ a[data-lightbox]{position:relative;display:block;text-align:center}
 .icon-dark-slate-blue{color:#364577!important;border-color:#364577!important}
 .bg-dots-bg{background-image:url("img/dots-bg.png")}
 .bg-lines-h2-bg{background-image:url("img/lines-h2-bg.png")}
-.bg-banniere{background-image:url("img/la-chouette-agence-banniere.jpg");z-index:0}
+.bg-banniere{background-image:url("img/la-chouette-agence-banniere.webp");z-index:0}
 .bg-presentation{background-image:url("img/image-entrepreneurs_lyon.webp")}
 @media(max-width:1024px){.bloc{padding-left:20px;padding-right:20px}
 }@media(max-width:992px) and (min-width:768px){.navbar .nav{max-width:80%}
